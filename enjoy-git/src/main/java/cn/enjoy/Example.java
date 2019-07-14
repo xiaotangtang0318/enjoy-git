@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 public class Example {
     @RequestMapping("/")
     String home() {
-        return "Hello my first git! merge king to master--reking--maserupdate ";
+        return "Hello my ssh project ";
     }
     public static void main(String[] args) throws Exception {
         SpringApplication.run(Example.class, args);
